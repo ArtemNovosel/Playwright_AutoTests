@@ -32,9 +32,9 @@ test('auth', async ({ page }) => {
   await page.goto('https://www.sima-land.ru/');
   await page.getByTestId('nav-item:cabinet').getByTestId('link').click();
   await page.getByTestId('login-field').getByTestId('text-field:field').click();
-  await page.getByTestId('password-field').getByTestId('text-field:field').fill('qa_test');
-  await page.getByTestId('password-field').getByTestId('text-field:field').click();  
-  await page.getByTestId('login-field').getByTestId('text-field:field').fill('qa_test@test.ru');
+  await page.getByTestId('login-field').getByTestId('text-field:field').fill('79024099791');
+  await page.getByTestId('password-field').getByTestId('text-field:field').click();
+  await page.getByTestId('password-field').getByTestId('text-field:field').fill('mVBERW');
   await page.getByTestId('button').click();
   await page.getByTestId('nav-item:cabinet').getByTestId('link').click();
   await page.close();
