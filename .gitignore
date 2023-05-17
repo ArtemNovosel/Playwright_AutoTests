@@ -1,4 +1,9 @@
-node_modules/
+/node_modules/
+*.png
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/tests-examples/
 /test-results/
 /playwright-report/
 /playwright/.cache/
